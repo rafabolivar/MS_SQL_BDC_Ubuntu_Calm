@@ -4,6 +4,6 @@ This Nutanix Calm blueprint deploys a k8s cluster using an Ubuntu Cloud Image, a
 
 Once deployed, you can find your kubeconfig file on *http://<master_server_ip>/joincluster*
 
-The name of the cluster deployed is the default one: **mssql-cluster**
+The name of the MS SQL cluster deployed is the default one: **mssql-cluster**
 
 If you prefer not to install azdata on your computer, you can use Calm to connect to the Master Server console and you'll find it there.
