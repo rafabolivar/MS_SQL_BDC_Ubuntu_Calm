@@ -7,3 +7,7 @@ Once deployed, you can find your kubeconfig file on *http://<master_server_ip>/j
 The name of the MS SQL cluster deployed is the default one: **mssql-cluster**
 
 If you prefer not to install azdata on your computer, you can use Calm to connect to the Master Server console and you'll find it there.
+
+There's a significant performance improvement if you use LVM and more vDisks. The Blueprint called *4_MS_SQL_BDC_k8s_Ubuntu_Local_LVM.json* configures a local-storage class, with 4 vdisks.
+
+As usual, the password is: **nutanix/4u**
